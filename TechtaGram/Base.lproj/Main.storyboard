@@ -25,7 +25,7 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="takePhoto" destination="BYZ-38-t0r" eventType="touchDown" id="Rgf-3B-T2T"/>
+                                    <action selector="takePhoto" destination="BYZ-38-t0r" eventType="touchUpInside" id="vja-dB-Ew0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xad-bp-ayA">
@@ -37,7 +37,7 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="openAlbum" destination="BYZ-38-t0r" eventType="touchDown" id="zx3-vn-JLW"/>
+                                    <action selector="openAlbum" destination="BYZ-38-t0r" eventType="touchUpInside" id="E74-nY-GbH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmk-ur-OaE">
@@ -49,7 +49,7 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="colorFilter" destination="BYZ-38-t0r" eventType="touchDown" id="BLQ-K8-alu"/>
+                                    <action selector="colorFilter" destination="BYZ-38-t0r" eventType="touchUpInside" id="KTI-HH-ioe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awD-P5-dud">
@@ -61,7 +61,7 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="savePhoto" destination="BYZ-38-t0r" eventType="touchDown" id="GWt-Jd-oxY"/>
+                                    <action selector="savePhoto" destination="BYZ-38-t0r" eventType="touchUpInside" id="87q-Lc-rsJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sy-N6-ia7">
@@ -73,7 +73,7 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="snsPhoto" destination="BYZ-38-t0r" eventType="touchDown" id="yOd-De-dCw"/>
+                                    <action selector="snsPhoto" destination="BYZ-38-t0r" eventType="touchUpInside" id="nat-g4-Xec"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9aq-hx-Zh2">
@@ -86,7 +86,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="cameraImageView" destination="9aq-hx-Zh2" id="l71-bo-Op0"/>
+                        <outlet property="cameraImageView" destination="9aq-hx-Zh2" id="NkJ-ia-1Jg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

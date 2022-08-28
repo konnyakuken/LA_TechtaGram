@@ -290,7 +290,9 @@
 				DEVELOPMENT_TEAM = J9T9DBSRNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TechtaGram/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "アプリ内で編集する写真を取るためにカメラを起動します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "編集したライブラリを保存";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "編集した画像をフォトライブラリに保存します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -320,7 +322,9 @@
 				DEVELOPMENT_TEAM = J9T9DBSRNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TechtaGram/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "アプリ内で編集する写真を取るためにカメラを起動します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "編集したライブラリを保存";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "編集した画像をフォトライブラリに保存します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
